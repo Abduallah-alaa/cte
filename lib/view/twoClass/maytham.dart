@@ -13,36 +13,6 @@ class mytha extends StatefulWidget {
 class _mythaState extends State<mytha> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        child: Padding(
-          padding: const EdgeInsets.all(4.0),
-          child: Card(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(15.0),
-            ),
-            child: InkWell(
-              onTap: () {
-                Get.to(Srt());
-              },
-              child: Column(
-                children: [
-                  Text(
-                    "المرحلة الاولى",
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Expanded(
-                      child: Image.asset(
-                    "assets/hhhh.png",
-                    width: 120,
-                    height: 120,
-                  )),
-                ],
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
+    return Scaffold();
   }
 }
