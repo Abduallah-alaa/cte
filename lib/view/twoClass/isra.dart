@@ -1,7 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_pdf/pdf.dart';
-import 'package:get/get.dart';
 
 class isra2 extends StatefulWidget {
   const isra2({Key? key}) : super(key: key);

@@ -17,7 +17,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     FirebaseMessaging.instance.getToken().then((value) {
@@ -53,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         },
                         child: Column(
                           children: [
-                            Text(
+                            const Text(
                               "المرحلة الاولى",
                               style: TextStyle(fontSize: 20),
                             ),
